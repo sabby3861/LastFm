@@ -17,6 +17,7 @@
 		648EAAA9269CAB0B00CA2DA5 /* LastFmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAA8269CAB0B00CA2DA5 /* LastFmUITests.swift */; };
 		648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */; };
 		648EAABC269CAB1600CA2DA5 /* LFStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */; };
+		648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		648EAAAA269CAB0B00CA2DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFReusableIdentifier.swift; sourceTree = "<group>"; };
 		648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFStoryBoard.swift; sourceTree = "<group>"; };
+		648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				648EAA8A269CAB0900CA2DA5 /* ViewController.swift */,
 				648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */,
 				648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */,
+				648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */,
 				648EAA8C269CAB0900CA2DA5 /* Main.storyboard */,
 				648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */,
 				648EAA91269CAB0B00CA2DA5 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				648EAA8B269CAB0900CA2DA5 /* ViewController.swift in Sources */,
 				648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */,
 				648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */,
+				648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */,
 				648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
