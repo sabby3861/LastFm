@@ -19,3 +19,4 @@ extension LFReusableIdentifier {
 
 /// Constants to use
 let storyboardError = "Couldn't instantiate view controller with identifier"
+let activityTitle = "Fetching Planets Info"

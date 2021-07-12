@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */; };
 		648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */; };
-		648EAA8B269CAB0900CA2DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA8A269CAB0900CA2DA5 /* ViewController.swift */; };
+		648EAA8B269CAB0900CA2DA5 /* LFSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */; };
 		648EAA8E269CAB0900CA2DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648EAA8C269CAB0900CA2DA5 /* Main.storyboard */; };
 		648EAA90269CAB0B00CA2DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */; };
 		648EAA93269CAB0B00CA2DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648EAA91269CAB0B00CA2DA5 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,10 @@
 		648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */; };
 		648EAABC269CAB1600CA2DA5 /* LFStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */; };
 		648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */; };
+		648EAAC6269CAC0E00CA2DA5 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAC5269CAC0E00CA2DA5 /* URLSessionProtocol.swift */; };
+		648EAACB269CAC5400CA2DA5 /* LFActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */; };
+		648EAAD0269CAC6C00CA2DA5 /* LFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */; };
+		648EAAD5269CAD1500CA2DA5 /* LFLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,7 @@
 		648EAA83269CAB0900CA2DA5 /* LastFm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastFm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		648EAA8A269CAB0900CA2DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongsViewController.swift; sourceTree = "<group>"; };
 		648EAA8D269CAB0900CA2DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		648EAA92269CAB0B00CA2DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,10 @@
 		648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFReusableIdentifier.swift; sourceTree = "<group>"; };
 		648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFStoryBoard.swift; sourceTree = "<group>"; };
 		648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		648EAAC5269CAC0E00CA2DA5 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFActivityView.swift; sourceTree = "<group>"; };
+		648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFExtensions.swift; sourceTree = "<group>"; };
+		648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFLayoutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +115,14 @@
 			children = (
 				648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */,
 				648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */,
-				648EAA8A269CAB0900CA2DA5 /* ViewController.swift */,
+				648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */,
 				648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */,
 				648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */,
 				648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */,
+				648EAAC5269CAC0E00CA2DA5 /* URLSessionProtocol.swift */,
+				648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */,
+				648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */,
+				648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */,
 				648EAA8C269CAB0900CA2DA5 /* Main.storyboard */,
 				648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */,
 				648EAA91269CAB0B00CA2DA5 /* LaunchScreen.storyboard */,
@@ -267,10 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648EAAC6269CAC0E00CA2DA5 /* URLSessionProtocol.swift in Sources */,
+				648EAACB269CAC5400CA2DA5 /* LFActivityView.swift in Sources */,
 				648EAABC269CAB1600CA2DA5 /* LFStoryBoard.swift in Sources */,
-				648EAA8B269CAB0900CA2DA5 /* ViewController.swift in Sources */,
+				648EAAD0269CAC6C00CA2DA5 /* LFExtensions.swift in Sources */,
+				648EAA8B269CAB0900CA2DA5 /* LFSongsViewController.swift in Sources */,
 				648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */,
 				648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */,
+				648EAAD5269CAD1500CA2DA5 /* LFLayoutHelper.swift in Sources */,
 				648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */,
 				648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */,
 			);
