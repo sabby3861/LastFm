@@ -115,14 +115,8 @@
 			children = (
 				648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */,
 				648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */,
+				648EAADC269CB18400CA2DA5 /* Helpers */,
 				648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */,
-				648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */,
-				648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */,
-				648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */,
-				648EAAC5269CAC0E00CA2DA5 /* URLSessionProtocol.swift */,
-				648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */,
-				648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */,
-				648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */,
 				648EAA8C269CAB0900CA2DA5 /* Main.storyboard */,
 				648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */,
 				648EAA91269CAB0B00CA2DA5 /* LaunchScreen.storyboard */,
@@ -147,6 +141,20 @@
 				648EAAAA269CAB0B00CA2DA5 /* Info.plist */,
 			);
 			path = LastFmUITests;
+			sourceTree = "<group>";
+		};
+		648EAADC269CB18400CA2DA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				648EAAB9269CAB1600CA2DA5 /* LFReusableIdentifier.swift */,
+				648EAABA269CAB1600CA2DA5 /* LFStoryBoard.swift */,
+				648EAAC0269CABCC00CA2DA5 /* NetworkReachabilityManager.swift */,
+				648EAAC5269CAC0E00CA2DA5 /* URLSessionProtocol.swift */,
+				648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */,
+				648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */,
+				648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
