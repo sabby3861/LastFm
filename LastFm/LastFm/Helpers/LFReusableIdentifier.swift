@@ -20,3 +20,6 @@ extension LFReusableIdentifier {
 /// Constants to use
 let storyboardError = "Couldn't instantiate view controller with identifier"
 let activityTitle = "Fetching Planets Info"
+let title = "FM Songs"
+let genericError = "Something wrong happened, please try later"
+let networkError = "Your network seems to be down, please check your connection and try again"

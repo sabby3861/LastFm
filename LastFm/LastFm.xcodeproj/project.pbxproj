@@ -22,6 +22,9 @@
 		648EAACB269CAC5400CA2DA5 /* LFActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */; };
 		648EAAD0269CAC6C00CA2DA5 /* LFExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */; };
 		648EAAD5269CAD1500CA2DA5 /* LFLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */; };
+		648EAAE1269CB1CC00CA2DA5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */; };
+		648EAAE9269CB28B00CA2DA5 /* LFPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */; };
+		648EAAEE269CBA5400CA2DA5 /* LFAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFActivityView.swift; sourceTree = "<group>"; };
 		648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFExtensions.swift; sourceTree = "<group>"; };
 		648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFLayoutHelper.swift; sourceTree = "<group>"; };
+		648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPayload.swift; sourceTree = "<group>"; };
+		648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAlbums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,9 @@
 				648EAACA269CAC5400CA2DA5 /* LFActivityView.swift */,
 				648EAACF269CAC6C00CA2DA5 /* LFExtensions.swift */,
 				648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */,
+				648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */,
+				648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */,
+				648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -291,11 +300,14 @@
 				648EAACB269CAC5400CA2DA5 /* LFActivityView.swift in Sources */,
 				648EAABC269CAB1600CA2DA5 /* LFStoryBoard.swift in Sources */,
 				648EAAD0269CAC6C00CA2DA5 /* LFExtensions.swift in Sources */,
+				648EAAE1269CB1CC00CA2DA5 /* APIManager.swift in Sources */,
 				648EAA8B269CAB0900CA2DA5 /* LFSongsViewController.swift in Sources */,
 				648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */,
 				648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */,
 				648EAAD5269CAD1500CA2DA5 /* LFLayoutHelper.swift in Sources */,
+				648EAAEE269CBA5400CA2DA5 /* LFAlbums.swift in Sources */,
 				648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */,
+				648EAAE9269CB28B00CA2DA5 /* LFPayload.swift in Sources */,
 				648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

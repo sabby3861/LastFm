@@ -73,11 +73,11 @@ class LFActivityView: LFActivityViewProtocol {
 
 
 
-protocol JPAlertDelegate {
+protocol LFAlertDelegate {
     func alert(buttonClickedIndex:Int, buttonTitle: String, tag: Int)
 }
-class JPAlertViewController {
-    class func showAlert(withTitle title: String, message:String, buttons:[String] = ["Ok"], delegate: JPAlertDelegate? = nil, tag: Int = 0){
+class LFAlertViewController {
+    class func showAlert(withTitle title: String, message:String, buttons:[String] = ["Ok"], delegate: LFAlertDelegate? = nil, tag: Int = 0){
         let keyWindow = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
         var presentingViewController = keyWindow?.rootViewController
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
