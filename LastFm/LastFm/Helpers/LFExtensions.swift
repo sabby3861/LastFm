@@ -13,3 +13,21 @@ extension UIView {
         self.removeFromSuperview()
     }
 }
+
+/// Make TableView Cell to use resuable identifier protocol, avoiding writing hard coded identifiers
+extension UITableViewCell: LFReusableIdentifier{}
+
+/// An image view extension to download image
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
+    }
+}

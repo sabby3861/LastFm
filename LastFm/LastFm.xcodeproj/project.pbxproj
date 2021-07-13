@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646C4EE3269E3F5A00E33571 /* LFArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C4EE2269E3F5900E33571 /* LFArtists.swift */; };
+		646C4EE8269E3F6E00E33571 /* LFSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C4EE7269E3F6E00E33571 /* LFSongs.swift */; };
+		646C4F0F269E4C7600E33571 /* LFDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C4F0E269E4C7600E33571 /* LFDetailViewController.swift */; };
+		646C4F14269E4C9D00E33571 /* LFDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C4F13269E4C9D00E33571 /* LFDetailRouter.swift */; };
+		646C4F19269E4CE800E33571 /* LFDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646C4F18269E4CE800E33571 /* LFDetailProtocols.swift */; };
 		648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */; };
 		648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */; };
 		648EAA8B269CAB0900CA2DA5 /* LFSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */; };
@@ -25,6 +30,11 @@
 		648EAAE1269CB1CC00CA2DA5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */; };
 		648EAAE9269CB28B00CA2DA5 /* LFPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */; };
 		648EAAEE269CBA5400CA2DA5 /* LFAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */; };
+		648EAAF3269CCE0000CA2DA5 /* LFAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAF2269CCE0000CA2DA5 /* LFAlbumTableViewCell.swift */; };
+		648EAAFB269CD09A00CA2DA5 /* LFSongsViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAFA269CD09900CA2DA5 /* LFSongsViewProtocols.swift */; };
+		648EAB00269CD0A600CA2DA5 /* LFSongsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAAFF269CD0A600CA2DA5 /* LFSongsPresenter.swift */; };
+		648EAB05269CD0B400CA2DA5 /* LFSongsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAB04269CD0B400CA2DA5 /* LFSongsInteractor.swift */; };
+		648EAB0A269CD0BF00CA2DA5 /* LFSongsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EAB09269CD0BF00CA2DA5 /* LFSongsRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		646C4EE2269E3F5900E33571 /* LFArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFArtists.swift; sourceTree = "<group>"; };
+		646C4EE7269E3F6E00E33571 /* LFSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongs.swift; sourceTree = "<group>"; };
+		646C4F0E269E4C7600E33571 /* LFDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFDetailViewController.swift; sourceTree = "<group>"; };
+		646C4F13269E4C9D00E33571 /* LFDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFDetailRouter.swift; sourceTree = "<group>"; };
+		646C4F18269E4CE800E33571 /* LFDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFDetailProtocols.swift; sourceTree = "<group>"; };
 		648EAA83269CAB0900CA2DA5 /* LastFm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastFm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +84,11 @@
 		648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPayload.swift; sourceTree = "<group>"; };
 		648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAlbums.swift; sourceTree = "<group>"; };
+		648EAAF2269CCE0000CA2DA5 /* LFAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		648EAAFA269CD09900CA2DA5 /* LFSongsViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongsViewProtocols.swift; sourceTree = "<group>"; };
+		648EAAFF269CD0A600CA2DA5 /* LFSongsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongsPresenter.swift; sourceTree = "<group>"; };
+		648EAB04269CD0B400CA2DA5 /* LFSongsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongsInteractor.swift; sourceTree = "<group>"; };
+		648EAB09269CD0BF00CA2DA5 /* LFSongsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSongsRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		646C4EEC269E4A0900E33571 /* VIPER(SongsView) */ = {
+			isa = PBXGroup;
+			children = (
+				646C4EF0269E4A3100E33571 /* View */,
+				646C4EF4269E4A3D00E33571 /* Protocols */,
+				646C4EF8269E4A4600E33571 /* Presenter */,
+				646C4EFC269E4A4F00E33571 /* Interactor */,
+				646C4F00269E4A5600E33571 /* Router */,
+				646C4F04269E4A6900E33571 /* Entity */,
+			);
+			path = "VIPER(SongsView)";
+			sourceTree = "<group>";
+		};
+		646C4EF0269E4A3100E33571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */,
+				648EAAF2269CCE0000CA2DA5 /* LFAlbumTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646C4EF4269E4A3D00E33571 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				648EAAFA269CD09900CA2DA5 /* LFSongsViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		646C4EF8269E4A4600E33571 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				648EAAFF269CD0A600CA2DA5 /* LFSongsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		646C4EFC269E4A4F00E33571 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				648EAB04269CD0B400CA2DA5 /* LFSongsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		646C4F00269E4A5600E33571 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				648EAB09269CD0BF00CA2DA5 /* LFSongsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		646C4F04269E4A6900E33571 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */,
+				646C4EE2269E3F5900E33571 /* LFArtists.swift */,
+				646C4EE7269E3F6E00E33571 /* LFSongs.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		648EAA7A269CAB0900CA2DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +205,11 @@
 			children = (
 				648EAA86269CAB0900CA2DA5 /* AppDelegate.swift */,
 				648EAA88269CAB0900CA2DA5 /* SceneDelegate.swift */,
+				646C4F0E269E4C7600E33571 /* LFDetailViewController.swift */,
+				646C4F13269E4C9D00E33571 /* LFDetailRouter.swift */,
+				646C4F18269E4CE800E33571 /* LFDetailProtocols.swift */,
 				648EAADC269CB18400CA2DA5 /* Helpers */,
-				648EAA8A269CAB0900CA2DA5 /* LFSongsViewController.swift */,
+				646C4EEC269E4A0900E33571 /* VIPER(SongsView) */,
 				648EAA8C269CAB0900CA2DA5 /* Main.storyboard */,
 				648EAA8F269CAB0B00CA2DA5 /* Assets.xcassets */,
 				648EAA91269CAB0B00CA2DA5 /* LaunchScreen.storyboard */,
@@ -161,7 +248,6 @@
 				648EAAD4269CAD1500CA2DA5 /* LFLayoutHelper.swift */,
 				648EAAE8269CB28B00CA2DA5 /* LFPayload.swift */,
 				648EAAE0269CB1CC00CA2DA5 /* APIManager.swift */,
-				648EAAED269CBA5400CA2DA5 /* LFAlbums.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -297,18 +383,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				648EAAC6269CAC0E00CA2DA5 /* URLSessionProtocol.swift in Sources */,
+				648EAAF3269CCE0000CA2DA5 /* LFAlbumTableViewCell.swift in Sources */,
 				648EAACB269CAC5400CA2DA5 /* LFActivityView.swift in Sources */,
 				648EAABC269CAB1600CA2DA5 /* LFStoryBoard.swift in Sources */,
+				646C4F0F269E4C7600E33571 /* LFDetailViewController.swift in Sources */,
 				648EAAD0269CAC6C00CA2DA5 /* LFExtensions.swift in Sources */,
+				648EAB00269CD0A600CA2DA5 /* LFSongsPresenter.swift in Sources */,
 				648EAAE1269CB1CC00CA2DA5 /* APIManager.swift in Sources */,
+				648EAB05269CD0B400CA2DA5 /* LFSongsInteractor.swift in Sources */,
+				646C4EE8269E3F6E00E33571 /* LFSongs.swift in Sources */,
 				648EAA8B269CAB0900CA2DA5 /* LFSongsViewController.swift in Sources */,
+				648EAB0A269CD0BF00CA2DA5 /* LFSongsRouter.swift in Sources */,
+				648EAAFB269CD09A00CA2DA5 /* LFSongsViewProtocols.swift in Sources */,
+				646C4EE3269E3F5A00E33571 /* LFArtists.swift in Sources */,
 				648EAABB269CAB1600CA2DA5 /* LFReusableIdentifier.swift in Sources */,
 				648EAA87269CAB0900CA2DA5 /* AppDelegate.swift in Sources */,
 				648EAAD5269CAD1500CA2DA5 /* LFLayoutHelper.swift in Sources */,
+				646C4F14269E4C9D00E33571 /* LFDetailRouter.swift in Sources */,
 				648EAAEE269CBA5400CA2DA5 /* LFAlbums.swift in Sources */,
 				648EAAC1269CABCC00CA2DA5 /* NetworkReachabilityManager.swift in Sources */,
 				648EAAE9269CB28B00CA2DA5 /* LFPayload.swift in Sources */,
 				648EAA89269CAB0900CA2DA5 /* SceneDelegate.swift in Sources */,
+				646C4F19269E4CE800E33571 /* LFDetailProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

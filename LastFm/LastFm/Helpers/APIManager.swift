@@ -17,6 +17,8 @@ protocol LFAPIServiceProtocol {
 /// APIManager Protocol
 protocol APIManagerProtocol {
     func getAlbumsInfo(payload: LFHTTPPayloadProtocol,completion: @escaping (Result<LFAlbumResponse, Error>) -> Void)
+    func getSongsInfo(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<LFSongResponse, Error>) -> Void)
+    func getArtistInfo(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<LFArtistResponse, Error>) -> Void)
 }
 
 /// Network status
@@ -56,7 +58,7 @@ class APIManager: LFAPIServiceProtocol {
      - Start the reachability
      - To checek network status
      */
-    func beginListeningNetworkReachability() {
+    private func beginListeningNetworkReachability() {
         reachabilityManager?.listener = { status in
             switch status {
             case .unknown: self.reachabilityStatus = .unknown
@@ -72,10 +74,10 @@ class APIManager: LFAPIServiceProtocol {
     /*
      Show Alert message on no network connection
      */
-    func showErrorForNoNetwork()  {
+    private func showErrorForNoNetwork()  {
         task?.suspend()
         DispatchQueue.main.async {
-            LFAlertViewController.showAlert(withTitle: title, message: networkError)
+            LFAlertViewController.showAlert(withTitle: alertTitle, message: networkError)
         }
     }
     
@@ -93,7 +95,7 @@ class APIManager: LFAPIServiceProtocol {
      **/
     private func sendRequest<T: Codable>(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<T, Error>) -> Void)  {
         
-        if let requestURL = URL(string: payload.url){
+        if let requestURL = payload.url{
             var urlRequest = URLRequest(url: requestURL)
             guard let headers = payload.headers else {
                 fatalError("There must be headers")
@@ -117,7 +119,10 @@ class APIManager: LFAPIServiceProtocol {
                 } catch let error {
                     result = .failure(error)
                 }
-                completion(result)
+                
+                DispatchQueue.main.async {
+                    completion(result)
+                }
 
             }
             task?.resume()
@@ -131,11 +136,29 @@ class APIManager: LFAPIServiceProtocol {
  */
 extension APIManager: APIManagerProtocol {
     /**
-     Retrieve the contacts
+     Retrieve the Albums
      - Parameter id:  Payload protocol, containing payload data
      - Parameter completion: Result of api call
      */
     func getAlbumsInfo(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<LFAlbumResponse, Error>) -> Void){
         sendRequest(payload: payload,completion: completion)
     }
+    /**
+     Retrieve the Songs
+     - Parameter id:  Payload protocol, containing payload data
+     - Parameter completion: Result of api call
+     */
+    func getSongsInfo(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<LFSongResponse, Error>) -> Void){
+        sendRequest(payload: payload,completion: completion)
+    }
+    /**
+     Retrieve the Artists
+     - Parameter id:  Payload protocol, containing payload data
+     - Parameter completion: Result of api call
+     */
+    func getArtistInfo(payload: LFHTTPPayloadProtocol, completion: @escaping (Result<LFArtistResponse, Error>) -> Void){
+        sendRequest(payload: payload,completion: completion)
+    }
+
 }
+
